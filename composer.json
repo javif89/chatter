@@ -7,8 +7,14 @@
             "email": "tony@devdojo.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/javif89/Purifier.git"
+        }
+    ],
     "require": {
-        "luketowers/purifier": "~3.0"
+        "javif89/purifier": "^3.0"
     },
     "require-dev": {
         "illuminate/cache": "^6.16",
