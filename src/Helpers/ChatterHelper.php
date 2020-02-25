@@ -1,6 +1,7 @@
 <?php
 
 namespace DevDojo\Chatter\Helpers;
+use Illuminate\Support\Str;
 
 class ChatterHelper
 {
@@ -48,7 +49,7 @@ class ChatterHelper
     {
         $parameter = static::urlParameter($url);
 
-        return str_replace('{'.$parameter.'}', $source[$parameter], $url);
+        return Str::replaceFirst('{'.$parameter.'}', $source[$parameter], $url);
     }
 
     /**

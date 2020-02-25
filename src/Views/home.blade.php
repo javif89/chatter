@@ -219,7 +219,7 @@
 	<script src="{{ url('/vendor/devdojo/chatter/assets/js/trumbowyg.js') }}"></script>
 @endif
 
-<script src="{{ url('/vendor/devdojo/chatter/assets/vendor/spectrum/spectrum.js') }}"></script>
+<script defer src="{{ url('/vendor/devdojo/chatter/assets/vendor/spectrum/spectrum.js') }}"></script>
 <script src="{{ url('/vendor/devdojo/chatter/assets/js/chatter.js') }}"></script>
 <script>
 	$('document').ready(function(){
