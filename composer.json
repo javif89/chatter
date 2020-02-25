@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "javif89/purifier": "^3.0"
+        "javif89/purifier": "dev-master"
     },
     "require-dev": {
         "illuminate/cache": "^6.16",
